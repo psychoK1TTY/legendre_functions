@@ -1,6 +1,6 @@
 # Makefile
-MAIN_FILE = paper
-BIB_FILE = bib_file.bib
+MAIN_FILE = main
+BIB_FILE = references.bib
 
 $(MAIN_FILE).pdf: $(MAIN_FILE).tex $(BIB_FILE)
 	pdflatex $(MAIN_FILE)
